@@ -6,7 +6,10 @@ function Identity({ identities }) {
 			className={styles.selectbar}
 			onChange={(event) => {
 				const img = event.target.parentElement.querySelector("img");
-				img.src = "img/" + identities[event.target.selectedIndex].img;
+				img.src =
+					process.env.PUBLIC_URL +
+					"/img/" +
+					identities[event.target.selectedIndex].img;
 			}}
 		>
 			{identities

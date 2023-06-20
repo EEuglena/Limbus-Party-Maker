@@ -5,7 +5,11 @@ import styles from "./Character.module.css";
 function Character({ character }) {
 	return (
 		<div className={styles.character}>
-			<img className={styles.image} src="img/image.png" alt="icon" />
+			<img
+				className={styles.image}
+				src={process.env.PUBLIC_URL + "/img/image.png"}
+				alt="icon"
+			/>
 			<p>{character.name}</p>
 			<Identity identities={character.identities} />
 			<Ego id="zayin" grade="ZAYIN" egos={character.zayin} />

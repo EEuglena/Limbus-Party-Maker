@@ -1,5 +1,7 @@
+import styles from "./Sins.module.css";
+
 function Sins() {
-	return <div>Here comes a sin bar.</div>;
+	return <div className={styles.sins}>Here comes a sin bar.</div>;
 }
 
 export default Sins;
