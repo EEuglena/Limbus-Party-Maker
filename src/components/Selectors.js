@@ -1,9 +1,18 @@
 import Selector from "./Selector";
+import styles from "./Selectors.module.css";
 
-function Selectors() {
+function Selectors({ data, setParty }) {
 	return (
-		<div style={{ textAlign: "center", backgroundColor: "yellow" }}>
-			<h3>Selectors UI</h3>
+		<div className={styles.selectors}>
+			{data.map((item) => {
+				return (
+					<Selector
+						key={item.name}
+						character={item}
+						setParty={setParty}
+					/>
+				);
+			})}
 		</div>
 	);
 }

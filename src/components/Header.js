@@ -1,9 +1,5 @@
 function Header() {
-	return (
-		<div>
-			<h1 style={{ backgroundColor: "tomato" }}>This is a Title.</h1>
-		</div>
-	);
+	return <h1 style={{ backgroundColor: "tomato" }}>This is a Title.</h1>;
 }
 
 export default Header;

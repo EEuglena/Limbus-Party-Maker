@@ -1,5 +1,8 @@
 .characters {
+	height: 500px;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	justify-content: left;
+	align-items: flex-start;
+	padding: 0 0;
 }

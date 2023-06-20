@@ -1,5 +1,6 @@
 .sins {
-	display: flex;
+	display: inline-flex;
 	background-color: red;
 	justify-content: center;
+	align-items: stretch;
 }

@@ -3,42 +3,18 @@
 		"name": "이상",
 		"identities": [
 			{
-				"name": "검계 살수",
-				"skill": [3, 2, 1, 0, 0, 0, 0],
-				"img": "image.png"
-			},
-			{
-				"name": "세븐 협회",
-				"skill": [3, 2, 1, 0, 0, 0, 0],
-				"img": "image.png"
+				"name": "LCB 수감자",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
 			}
 		],
-		"zayin": [{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }],
-		"teth": [{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }],
-		"he": [{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }],
-		"waw": [{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }],
-		"aleph": []
-	},
-	{
-		"name": "파우스트",
-		"identities": [
-			{ "name": "LCB 수감자", "skill": [3, 2, 1, 0, 0, 0, 0] }
-		],
-		"zayin": [{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }],
-		"teth": [{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }],
-		"he": [{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }],
-		"waw": [{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }],
-		"aleph": []
-	},
-	{
-		"name": "돈키호테",
-		"identities": [
-			{ "name": "남부 시 협회 5과 부장", "skill": [3, 2, 1, 0, 0, 0, 0] }
-		],
-		"zayin": [{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }],
-		"teth": [{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }],
-		"he": [{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }],
-		"waw": [{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }],
-		"aleph": []
+		"egos": {
+			"zayin": [
+				{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }
+			],
+			"teth": [],
+			"he": [],
+			"waw": [],
+			"aleph": []
+		}
 	}
 ]
