@@ -1,0 +1,10 @@
+.header {
+	background-color: lightgray;
+	height: 0;
+	margin: 20px 0;
+}
+
+.main {
+	background-color: lightblue;
+	margin: 0 0;
+}

@@ -1,11 +1,12 @@
 import Character from "./Character";
+import styles from "./Characters.module.css";
 
-function Characters() {
+function Characters({ characters }) {
 	return (
-		<div>
-			<Character />
-			<Character />
-			<Character />
+		<div className={styles.characters}>
+			{characters.map((item, index) => {
+				return <Character key={index} character={item} />;
+			})}
 		</div>
 	);
 }

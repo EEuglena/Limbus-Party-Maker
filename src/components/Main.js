@@ -1,12 +1,14 @@
 import Selectors from "./Selectors";
 import Characters from "./Characters";
 import Sins from "./Sins";
+import data from "../data.json";
+import styles from "./Main.module.css";
 
 function Main() {
 	return (
-		<div>
+		<div className={styles.main}>
 			<Selectors />
-			<Characters />
+			<Characters characters={data} />
 			<Sins />
 		</div>
 	);

@@ -1,0 +1,14 @@
+.character {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.image {
+	object-fit: none;
+	height: 300px;
+	width: 200px;
+	background: cornflowerblue;
+	border-radius: 30px;
+}
