@@ -1,6 +1,12 @@
 .sins {
 	display: inline-flex;
-	background-color: red;
+	background-color: darkred;
+	border: 3px solid goldenrod;
+	border-radius: 5px;
+	box-shadow: 0 0 25px 0px goldenrod;
+	height: 60px;
+	width: fit-content;
+	padding: 10px;
 	justify-content: center;
-	align-items: stretch;
+	align-items: center;
 }

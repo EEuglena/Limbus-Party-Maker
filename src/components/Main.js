@@ -10,7 +10,7 @@ function Main() {
 
 	return (
 		<div className={styles.main}>
-			<Selectors data={data} setParty={setParty} />
+			<Selectors data={data} party={party} setParty={setParty} />
 			<Characters data={data} party={party} setParty={setParty} />
 			<Sins data={data} party={party} />
 		</div>

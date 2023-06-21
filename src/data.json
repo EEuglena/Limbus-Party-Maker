@@ -5,11 +5,213 @@
 			{
 				"name": "LCB 수감자",
 				"skill": [0, 0, 0, 0, 0, 0, 0]
+			},
+			{
+				"name": "남부 세븐 협회 6과",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
 			}
 		],
 		"egos": {
 			"zayin": [
-				{ "name": "오감도", "requirement": [1, 1, 1, 0, 0, 0, 0] }
+				{ "name": "오감도", "requirement": [0, 0, 0, 0, 0, 0, 0] }
+			],
+			"teth": [],
+			"he": [],
+			"waw": [],
+			"aleph": []
+		}
+	},
+	{
+		"name": "파우스트",
+		"identities": [
+			{
+				"name": "LCB 수감자",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
+			}
+		],
+		"egos": {
+			"zayin": [
+				{ "name": "오감도", "requirement": [0, 0, 0, 0, 0, 0, 0] }
+			],
+			"teth": [],
+			"he": [],
+			"waw": [],
+			"aleph": []
+		}
+	},
+	{
+		"name": "돈키호테",
+		"identities": [
+			{
+				"name": "LCB 수감자",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
+			}
+		],
+		"egos": {
+			"zayin": [
+				{ "name": "오감도", "requirement": [0, 0, 0, 0, 0, 0, 0] }
+			],
+			"teth": [],
+			"he": [],
+			"waw": [],
+			"aleph": []
+		}
+	},
+	{
+		"name": "료슈",
+		"identities": [
+			{
+				"name": "LCB 수감자",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
+			}
+		],
+		"egos": {
+			"zayin": [
+				{ "name": "오감도", "requirement": [0, 0, 0, 0, 0, 0, 0] }
+			],
+			"teth": [],
+			"he": [],
+			"waw": [],
+			"aleph": []
+		}
+	},
+	{
+		"name": "뫼르소",
+		"identities": [
+			{
+				"name": "LCB 수감자",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
+			}
+		],
+		"egos": {
+			"zayin": [
+				{ "name": "오감도", "requirement": [0, 0, 0, 0, 0, 0, 0] }
+			],
+			"teth": [],
+			"he": [],
+			"waw": [],
+			"aleph": []
+		}
+	},
+	{
+		"name": "홍루",
+		"identities": [
+			{
+				"name": "LCB 수감자",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
+			}
+		],
+		"egos": {
+			"zayin": [
+				{ "name": "오감도", "requirement": [0, 0, 0, 0, 0, 0, 0] }
+			],
+			"teth": [],
+			"he": [],
+			"waw": [],
+			"aleph": []
+		}
+	},
+	{
+		"name": "히스클리프",
+		"identities": [
+			{
+				"name": "LCB 수감자",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
+			}
+		],
+		"egos": {
+			"zayin": [
+				{ "name": "오감도", "requirement": [0, 0, 0, 0, 0, 0, 0] }
+			],
+			"teth": [],
+			"he": [],
+			"waw": [],
+			"aleph": []
+		}
+	},
+	{
+		"name": "이스마엘",
+		"identities": [
+			{
+				"name": "LCB 수감자",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
+			}
+		],
+		"egos": {
+			"zayin": [
+				{ "name": "오감도", "requirement": [0, 0, 0, 0, 0, 0, 0] }
+			],
+			"teth": [],
+			"he": [],
+			"waw": [],
+			"aleph": []
+		}
+	},
+	{
+		"name": "로쟈",
+		"identities": [
+			{
+				"name": "LCB 수감자",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
+			}
+		],
+		"egos": {
+			"zayin": [
+				{ "name": "오감도", "requirement": [0, 0, 0, 0, 0, 0, 0] }
+			],
+			"teth": [],
+			"he": [],
+			"waw": [],
+			"aleph": []
+		}
+	},
+	{
+		"name": "싱클레어",
+		"identities": [
+			{
+				"name": "LCB 수감자",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
+			}
+		],
+		"egos": {
+			"zayin": [
+				{ "name": "오감도", "requirement": [0, 0, 0, 0, 0, 0, 0] }
+			],
+			"teth": [],
+			"he": [],
+			"waw": [],
+			"aleph": []
+		}
+	},
+	{
+		"name": "오티스",
+		"identities": [
+			{
+				"name": "LCB 수감자",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
+			}
+		],
+		"egos": {
+			"zayin": [
+				{ "name": "오감도", "requirement": [0, 0, 0, 0, 0, 0, 0] }
+			],
+			"teth": [],
+			"he": [],
+			"waw": [],
+			"aleph": []
+		}
+	},
+	{
+		"name": "그레고르",
+		"identities": [
+			{
+				"name": "LCB 수감자",
+				"skill": [0, 0, 0, 0, 0, 0, 0]
+			}
+		],
+		"egos": {
+			"zayin": [
+				{ "name": "오감도", "requirement": [0, 0, 0, 0, 0, 0, 0] }
 			],
 			"teth": [],
 			"he": [],

@@ -1,10 +1,10 @@
 import styles from "./Selector.module.css";
 
-function Selector({ character, setParty }) {
+function Selector({ character, party, setParty }) {
 	return (
 		<div id={character.name} className={styles.selector}>
 			<img
-				style={{ width: 100 }}
+				className={styles.img}
 				src={`${process.env.PUBLIC_URL}/img/${character.name}/icon.webp`}
 				alt={`${character.name}/icon`}
 				onClick={(event) => {
@@ -14,7 +14,9 @@ function Selector({ character, setParty }) {
 							return cur.filter(
 								(item) => item.name !== clickedName
 							);
-						else
+						else {
+							if (cur.length >= 5) return cur;
+
 							return [
 								...cur,
 								{
@@ -23,6 +25,7 @@ function Selector({ character, setParty }) {
 									egos: { zayin: 0 },
 								},
 							];
+						}
 					});
 				}}
 			/>

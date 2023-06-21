@@ -11,7 +11,7 @@ function Character({ character, setParty }) {
 		<div id={character.name} className={styles.container}>
 			<img
 				className={styles.image}
-				src={`${process.env.PUBLIC_URL}/img/${character.name}/${identity}.png`}
+				src={`${process.env.PUBLIC_URL}/img/${character.name}/${identity}.webp`}
 				alt={`${character.name}/${identity}`}
 			/>
 			<Identity

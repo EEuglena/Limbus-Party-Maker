@@ -1,3 +1,22 @@
 .sin {
-	flex: 1 1 auto;
+	display: flex;
+	height: 30px;
+	margin: 0 10px;
+	align-items: center;
+	flex-grow: 1 1 auto;
+}
+
+.text {
+	margin: 0 10px;
+	font-size: 2vw;
+	font-family: "Impact";
+	text-shadow: -1px 0px white, 1px 0px white, 0px -1px white, 0px 1px white;
+}
+
+.yes {
+	color: green;
+}
+
+.no {
+	color: red;
 }

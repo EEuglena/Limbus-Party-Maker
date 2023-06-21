@@ -28,10 +28,17 @@ function Sin({ id, data, img, party }) {
 	return (
 		<div className={styles.sin}>
 			<img
-				src={process.env.PUBLIC_URL + "/img/" + img + ".png"}
+				src={`${process.env.PUBLIC_URL}/img/${img}.webp`}
 				alt={img}
+				height={"30px"}
 			/>
-			{sum} / {req}
+			<span
+				className={`${styles.text} ${
+					sum >= req ? styles.yes : styles.no
+				}`}
+			>
+				{sum} / {req}
+			</span>
 		</div>
 	);
 }
