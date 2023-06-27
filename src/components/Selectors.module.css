@@ -1,6 +1,4 @@
 .selectors {
-	display: inline-flex;
-	flex-direction: row;
-	align-items: stretch;
+	display: flex;
 	justify-content: center;
 }

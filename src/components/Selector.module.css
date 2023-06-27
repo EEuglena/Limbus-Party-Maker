@@ -1,8 +1,4 @@
-.selector {
-	flex: 1 1 auto;
-}
-
 .img {
-	width: 100px;
-	filter: drop-shadow(0 0 1px white);
+	width: 60px;
+	filter: drop-shadow(0 0 3px white);
 }

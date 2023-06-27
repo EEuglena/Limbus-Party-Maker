@@ -1,17 +1,25 @@
 .container {
 	display: flex;
 	flex-direction: column;
+	margin: 10px;
 	padding: 5px;
 	border: 3px solid goldenrod;
 	box-shadow: 0 0 20px -1px goldenrod;
 	border-radius: 10px;
 	background-color: white;
+	align-items: center;
+}
+
+@media (max-height: 767px) {
+	.image {
+		display: none;
+	}
 }
 
 .image {
 	object-fit: none;
-	height: 300px;
-	width: 200px;
+	height: 180px;
+	width: 150px;
 }
 
 .name {

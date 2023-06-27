@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Black+Han+Sans:400");
+@import url("https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean");
+
 .header {
+	font-family: "Black Han Sans", "검은고딕";
+	font-size: 30pt;
+	text-shadow: 2px 2px white, 2px -2px white, -2px 2px white, -2px -2px white;
 	color: goldenrod;
 }

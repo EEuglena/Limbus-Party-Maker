@@ -9,6 +9,7 @@ function Character({ character, setParty }) {
 
 	return (
 		<div id={character.name} className={styles.container}>
+			<div className={styles.name}>{character.name}</div>
 			<img
 				className={styles.image}
 				src={`${process.env.PUBLIC_URL}/img/${character.name}/${identity}.webp`}
@@ -19,7 +20,6 @@ function Character({ character, setParty }) {
 				setParty={setParty}
 				setIdentity={setIdentity}
 			/>
-			<div className={styles.name}>{character.name}</div>
 			{grades.map((grade, index) => {
 				return (
 					<Ego
