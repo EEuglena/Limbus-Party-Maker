@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Limbus-Party-Maker/static/css/main.f5d12e6d.css",
-    "main.js": "/Limbus-Party-Maker/static/js/main.558a9e33.js",
+    "main.css": "/Limbus-Party-Maker/static/css/main.61a71e6d.css",
+    "main.js": "/Limbus-Party-Maker/static/js/main.51cabfe2.js",
     "index.html": "/Limbus-Party-Maker/index.html",
-    "main.f5d12e6d.css.map": "/Limbus-Party-Maker/static/css/main.f5d12e6d.css.map",
-    "main.558a9e33.js.map": "/Limbus-Party-Maker/static/js/main.558a9e33.js.map"
+    "main.61a71e6d.css.map": "/Limbus-Party-Maker/static/css/main.61a71e6d.css.map",
+    "main.51cabfe2.js.map": "/Limbus-Party-Maker/static/js/main.51cabfe2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5d12e6d.css",
-    "static/js/main.558a9e33.js"
+    "static/css/main.61a71e6d.css",
+    "static/js/main.51cabfe2.js"
   ]
 }
